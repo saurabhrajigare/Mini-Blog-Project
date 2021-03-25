@@ -44,8 +44,8 @@ function Form(props) {
                     <br />
 
                     {
-                        props.article.id ? <button onClick={updateArticle} className="btn btn-success">Update Article</button>
-                            : <button onClick={insertArticle} className="btn btn-success">Insert Article</button>
+                        props.article.id ? <button onClick={updateArticle} className="btn btn-outline-success">Update Article</button>
+                            : <button onClick={insertArticle} className="btn btn-outline-success">Insert Article</button>
 
 
                     }

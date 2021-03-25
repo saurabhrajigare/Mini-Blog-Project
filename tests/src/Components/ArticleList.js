@@ -22,10 +22,10 @@ function ArticleList(props) {
                         <p>{article.description}</p>
                         <div className="row">
                             <div className="col-md-1">
-                                <button className="btn btn-primary" onClick={() => editBtn(article)}>Update</button>
+                                <button className="btn btn-outline-primary btn-lg" onClick={() => editBtn(article)}>Update</button>
                             </div>
                             <div className="col-md-1">
-                                <button onClick={() => deleteBtn(article)} className="btn btn-danger">Delete</button>
+                                <button onClick={() => deleteBtn(article)} className="btn btn-outline-danger btn-lg">Delete</button>
                             </div>
                         </div>
                         <hr className="hrclass" />

@@ -76,10 +76,10 @@ function App() {
     <div className="App">
           <div className = "row">
             <div className = "col">
-            <h1> My Blog Application</h1>
+            <h1>Blog Application</h1>
             </div>
             <div className = "col">
-              <button onClick = {articleForm} className = "btn btn-primary">New Blog</button>
+              <button onClick = {articleForm} className = "btn btn-outline-warning">New Blog</button>
             </div>
             <div className = "col">
               <button onClick = {logoutBtn} className = "btn btn-danger">Log out</button>
