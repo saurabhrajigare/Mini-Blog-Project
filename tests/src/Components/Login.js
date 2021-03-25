@@ -49,14 +49,14 @@ function Login() {
                 />
             </div>
 
-            {isLogin ? <button onClick={loginBtn} className="btn btn-primary">Login</button>
-                : <button onClick={RegisterBtn} className="btn btn-primary">Register</button>
+            {isLogin ? <button onClick={loginBtn} className="btn btn-outline-primary btn-lg">Login</button>
+                : <button onClick={RegisterBtn} className="btn btn-outline-danger btn-lg">Register</button>
 
             }&nbsp;&nbsp;
 
                 
-            {isLogin ? <button className="btn btn-primary" onClick={() => setLogin(false)}>Register</button>
-                : <h5>If you have Account, Please <button className="btn btn-primary" onClick={() => setLogin(true)}>Login</button> Here</h5>
+            {isLogin ? <button className="btn btn-outline-danger btn-lg" onClick={() => setLogin(false)}>Register</button>
+                : <h5>If you have Account, Please <button className="btn btn-outline-primary" onClick={() => setLogin(true)}>Login</button> Here</h5>
             }
 
         </div>
